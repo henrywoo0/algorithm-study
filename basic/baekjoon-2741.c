@@ -4,7 +4,6 @@
 int main(void)
 {
 	int n;
-	int sum = 0;
 
 	scanf("%d", &n);
 
