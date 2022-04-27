@@ -7,7 +7,7 @@ int isPrime(int num) {
     
     // 자신의 절반 이상에 해당하는 수는 나누면 항상 나머지가 0이 되지 않음.
     // 최대 n/2번 조회함
-    for(int i = 2; i < num / 2; i++) {
+    for(int i = 2; i <= num / 2; i++) {
         if(num % i == 0)
             return 0;
     }
