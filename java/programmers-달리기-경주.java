@@ -1,3 +1,5 @@
+// 로직으로는 맞지만, 시간 초과 오류남
+// 보완 필요
 import java.util.*;
 
 class Solution {
